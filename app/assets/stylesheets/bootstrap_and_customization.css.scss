@@ -1,12 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
 
-
-$body-bg: 										#ecf0f1;
-$font-family-sans-serif: 			'Lato', 'Helvetica Neue', Helvetiva, Arial, san-serif;
+$body-bg: 										#ffffff;
+$font-family-sans-serif: 			'Roboto', 'Helvetica Neue', Helvetiva, Arial, san-serif;
+$font-weight:									100;
 $navbar-height:								45px;
 $navbar-default-bg:						white;
 $navbar-default-brand-color: 	#c0392b;
-$brand-primary: 							#c0392b;
+$brand-primary: 							#abcabc;
 $jumbotron-bg: 								white;
 
 @import 'bootstrap';
@@ -15,6 +16,73 @@ $jumbotron-bg: 								white;
 	text-align: center;
 }
 
-.navbar-brand {
-	font-weight: bold;
+.brand {
+	margin-top: -20px;
 }
+.navbar-default {
+	border: none;
+	border-top: 3px solid #abcabc;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #B0C4CA!important;
+	border-bottom: 3px solid #fff;
+}
+
+ul.nav a:hover { 
+	color: #999 !important; 
+	border-bottom: 3px solid #999;
+}
+
+
+
+h1, h2, h3 {
+	margin-top: 0px!important;
+}
+
+	h1 {
+		font-weight: 200;
+		font-size: 48px!important;
+		color: #abcabc!important;
+		letter-spacing: 4px;
+	}
+
+	h2 {
+		font-weight:200;
+		font-size: 20px;
+		letter-spacing: 2px;
+		color: #cccccc!important;
+	}
+
+
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 36px!important;
+	}
+
+	h2 {
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
