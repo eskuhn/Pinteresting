@@ -11,6 +11,10 @@ $brand-primary: 							#abcabc;
 $jumbotron-bg: 								white;
 
 @import 'bootstrap';
+.tile {
+	width:200px;
+	height: 400px;
+}
 
 .center {
 	text-align: center;
