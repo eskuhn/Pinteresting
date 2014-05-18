@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="776px" height="200px" viewBox="0 0 776 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.1 (7597) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <description>Created with Sketch.</description>
+    <defs>
+        <linearGradient x1="58.070153%" y1="100%" x2="58.070153%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#00EBFF" offset="0%"></stop>
+            <stop stop-color="#37CCD5" offset="36.1880353%"></stop>
+            <stop stop-color="#FFD565" offset="63.765081%"></stop>
+            <stop stop-color="#FF5E3A" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-2" d="M160.084852,180 C184.325518,161.746269 200,132.719889 200,100.031388 C200,44.785578 155.228475,0 100,0 L100,1.63116776"></path>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="960" sketch:type="MSArtboardGroup" transform="translate(-93.000000, -1470.000000)">
+            <g id="Data-" sketch:type="MSLayerGroup" transform="translate(90.000000, 1367.000000)">
+                <g id="Group" transform="translate(0.000000, 103.000000)">
+                    <path d="M46,175 L545,175" id="Path-30" stroke-opacity="0.2" stroke="#FFFFFF" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                    <path d="M46,94 L545,94" id="Path-31" stroke-opacity="0.2" stroke="#FFFFFF" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                    <path d="M48,139.62236 C48,139.62236 82.9484557,140.117184 99.3961029,126.402344 C115.84375,112.687503 119.570312,69.7695306 140.316766,69.7695312 C185.117187,69.7695326 187.325281,166.904242 248.250886,152.869889 C309.176491,138.835536 297.542158,26.1440046 343.351562,23 C389.160967,19.8559954 399.113281,139.622361 519.105469,139.622361" id="Path-23" stroke="url(#linearGradient-1)" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                    <g id="BG-reading" transform="translate(579.000000, 0.000000)">
+                        <text id="12m----30s" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="50" font-weight="206" sketch:alignment="middle" fill="#FFFFFF">
+                            <tspan x="28.429" y="118">12</tspan>
+                            <tspan x="84.029" y="118" font-size="14">m    </tspan>
+                            <tspan x="110.489" y="118">30</tspan>
+                            <tspan x="166.089" y="118" font-size="14">s</tspan>
+                        </text>
+                        <g id="Line-2-+-Oval-155" transform="translate(82.000000, 30.000000)" stroke="#FFFFFF" sketch:type="MSShapeGroup">
+                            <path d="M21,13.0911882 C20.7763434,9.13441138 17.7307822,6 14.0065822,6 C10.1369537,6 7,9.3839859 7,13.5583441 C7,14.79789 7.27660113,15.9677448 7.76685225,17" id="Oval-170"></path>
+                            <path d="M1,22 L13.7975637,14.027539 L18.0655583,17.4586915 L23.56883,11 L37,19.6234957" id="Path-160"></path>
+                            <path d="M14.5,0 L14.5,3.77777778 M21.5,2.26794919 L19.6111111,5.53960072 M0.5,14 L4.27777778,14 M1.76794919,7 L5.03960072,8.88888889 M7.5,2.26794919 L9.38888889,5.53960072" id="Line" stroke-linecap="square"></path>
+                        </g>
+                        <circle id="Oval-168" stroke-opacity="0.2" stroke="#FFFFFF" stroke-width="2" sketch:type="MSShapeGroup" cx="100" cy="100" r="100"></circle>
+                        <g id="Oval-169">
+                            <use stroke="#00EBFF" stroke-width="2" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                            <use stroke="none" xlink:href="#path-2"></use>
+                        </g>
+                        <text id="Next-Blood-Glucose-R" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="9" font-weight="206" sketch:alignment="middle" fill="#FFFFFF">
+                            <tspan x="48.489" y="137">Next Blood Glucose Reading</tspan>
+                        </text>
+                        <text id="breakfast" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="8" font-weight="206" sketch:alignment="middle" fill="#FFFFFF">
+                            <tspan x="86.06" y="63">breakfast</tspan>
+                        </text>
+                    </g>
+                    <text id="120" opacity="0.299265392" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="24" font-weight="206" sketch:alignment="right" fill="#FFFFFF">
+                        <tspan x="0.968" y="102">120</tspan>
+                    </text>
+                    <text id="80" opacity="0.299265392" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="24" font-weight="206" sketch:alignment="right" fill="#FFFFFF">
+                        <tspan x="14.312" y="184">80</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
