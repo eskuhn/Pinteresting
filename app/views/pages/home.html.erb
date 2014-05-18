@@ -1,11 +1,77 @@
+	<!-- BEGINNING FIRST SECTION -->
 
-	<!-- <% if user_signed_in? %>
-		So. How'd you get up in here?
-	<% else %>
-		<p>
-			<%= link_to "Log In", new_user_session_path, class: "btn btn-default btn-lg" %>
-			<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+<div class="row" id="about">
+	<div class="container col-md-8 col-md-offset-2">
+		<div class="container text-center circle">
+		</div>
+		<div class="content">
+			<p>I'm a Product Guy living in Southern California with my wife and two dogs. I started my first company - a non-profit - in 2004 and have been fascinated by process of making nothing into something ever since.</p><br>
+
+			<p>I specialize in business strategy, product, and design. I advise, build, and invest in tech-enabled small companies in a variety of industries, especially mobile and health.</p><br> 
+
+			<p>Please reach out if you'd like to
+			<%= link_to "work together", "#" %>
 		</p>
-	<% end %> -->
+		</div>
+	</div>
+</div>
+		<!-- END OF FIRST SECTION -->
+
+     <!-- #Data -->
+<div class="row" id="data">
+	<div class="container-fluid">
+		<div class="container dark col-md-8 col-md-offset-2">
+			<h1>Data is my life</h1>
+			<div class= "subhero">
+				<%= image_tag("Graph_and_Pie.svg", :alt => "diabetes data design") %>
+			</div>
+			<div class="content">
+				<p>I’m a Type 1 Diabetic, so every day is a numbers game. Data is everywhere, making it beautiful and actionable is my passion.</p><br>
+
+				<p>I believe technology and data can improve health outcomes for everyone. I know from experience</p>
+			</div>
+		</div>
+	</div>
+</div>
+     <!-- ends Data -->
+
+<!-- #Build -->
+<div class="row" id="build">
+	<div class="container-fluid">
+		<div class="container text-center col-md-8 col-md-offset-2">
+			<h1>I like to Build</h1>
+			<div class="subhero">
+			</div>
+			<div class="content">
+				<br>
+				<p>I build teams, products (physical and digital), and businesses - I even used to build buildings - and I’ve realized one universal truth:</p><br>
+
+				<blockquote><p>You can’t do anything exceptional without an exceptional team. Start there, and the rest is cake.</p></blockquote><br> 
+
+				<p>That’s a lie, it’s still really hard. But, the likelihood of success is much higher, and the process is a lot more rewarding</p><br>
+			</div>
+		</div>
+	</div>
+</div>
+     <!-- ends Build -->
+
+
+     <!-- #form -->
+<div class="row" id="form">
+	<div class="container-fluid">
+		<div class="container col-md-8 col-md-offset-2">
+			<h1>Send me a note, let's chat</h1>
+ 
+			<div class="text-center content">
+				<%= mail_to "@eskuhn", "eskuhn@gmail.com"%><br>
+				<%= link_to "@eskuhn", "http://www.twitter.com/eskuhn", :target => "_blank" %><br>
+				<%= link_to "in/eskuhn", "https://www.linkedin.com/in/eskuhn", :target => "_blank"  %><br>
+				<%= link_to "eskuhn.vsco", "http://eskuhn.vsco.co/", :target => "_blank"  %>
+			</div>
+		</div>
+	</div>
+</div>
+     <!-- ends Data -->
+
 
 

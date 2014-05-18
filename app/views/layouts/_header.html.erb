@@ -1,6 +1,8 @@
+
 <nav class="navbar navbar-default" role="navigation">
   <div class="container"> <!-- keeps nav elements from side -->
-    <div class="span4 left">      
+
+    <div class="span4 right">      
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
@@ -17,26 +19,32 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "about", about_path %>
+        <!-- <li><%= link_to "about", about_path %>
         <li><%= mail_to "me@domain.com" do %>
-            <span>hire me</span>
+            <span class="glyphicon glyphicon-send"></span> -->
+        <li><%= link_to "work", "#build" %>
+        <li><%= link_to "contact", "#form" %>
         <% end %>
 
           
         <% if user_signed_in? %>
-          <li><%= link_to 'New Pin', new_pin_path %></li>
-          <li><%= link_to "settings", edit_user_registration_path %></li>
-          <li><%= link_to "log out", destroy_user_session_path, method: :delete %></li>
+          <li><%= link_to raw('<span class="glyphicon glyphicon-plus"></span>'), new_pin_path %></li>
+          <li><%= link_to raw('<span class="glyphicon glyphicon-cog"></span>'), edit_user_registration_path %></li>
+          <li><%= link_to raw('<span class="glyphicon glyphicon-eject"></span>'), destroy_user_session_path, method: :delete %></li>
         <% else %>
-          <li><%= link_to "sign in", new_user_session_path %></li>
+          <!-- <li><%= link_to "sign in", new_user_session_path %></li> -->
         <% end %>
       </ul>
-    </div><!-- /.navbar-collapse -->
+    </div> <!-- /.navbar-collapse -->
 
+        <div class="brand">
+      <div class="logo pull-left">
+        <%=link_to image_tag( "Logo@2x.svg", :alt => "eskuhn logo"), root_path %> 
+      </div> 
+      <h3>Eric S Kuhn</h3>
+      <h4>Product | Strategy | Design</h4>
+    </div>
 
   </div><!-- /.container-collapse -->
-  <div class="brand center">
-      <h1><%= link_to "eric s kuhn", root_path %></h1>
-      <h2>product - strategy - design</h2>
-    </div>
+    
 </nav>

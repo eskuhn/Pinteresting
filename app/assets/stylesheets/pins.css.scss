@@ -14,3 +14,23 @@
 .box img {
 	width: 100%;
 }
+
+.actions {
+	position: absolute;
+	right: 0px;
+	background: rgba(255,255,255,0.75);
+	opacity: .75;
+	padding: 0px 5px;
+}
+
+.actions a {
+	color: #666666;
+}
+
+.actions a:hover {
+	color: #333333;
+}
+
+.action a.active {
+
+}
